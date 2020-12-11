@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz app</title>
+    </head>
+    <body>
+
+        <section id="intro" class="intro">
+            <h1>Read the following instructions carefully</h1>
+            <ol>
+                <li>1. This test consists of only 15 questions</li>
+                <li>2. You have just 6 minutes and 25 seconds to finish the test</li>
+                <li>3.You are to spend a maximum of 25 seconds on each question </li>
+                <li>4. Once you click the next button, you cannot go back to the previous question <br>
+                    so be sure of your answer before you click the next button
+                </li>
+                <li>5. Do not click the submit button except you are through with the test<br>
+                    clicking the submit button will bring the test to an end
+                </li>
+                <li>6. Once your time is up, your test will be submitted automatically<br> and you will recieve your score immediately</li>
+                <li>7. The answers to all the questions will be presented at the end of the test</li>
+                <li>8. Once you click the start button below, your time starts counting</li>
+                <li>9.Good luck 😜</li>
+            </ol> 
+
+            <button id="btn-start" class="btn-start btn">Start</button>
+        </section> 
+
+
+
+
+
+
+       <main id="question-section">
+            <div id="timer-box" class="timer">
+                <span id="minute">6</span> : <span id="second-tenth">2</span><span id="second-unit">5</span>
+            </div>
+           <div class="container" id="container"></div>
+           <div class="btn-box">
+            <button id="btn-submit" class="btn-submit btn">Submit</button>
+            <button id="btn-next" class="btn-next btn">Next &raquo;</button>  
+           </div>
+           
+            
+        </main>
+        
+    </body>
+    <script src="main.js"></script>
+</html>

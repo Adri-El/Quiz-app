@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+@media only screen and (max-width: 37.5em){
+    html{
+        font-size: 50%;
+    }
+}
+
+.intro{
+   /* height: 100vh;*/
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.intro h1{
+    font-size: 4rem;
+}
+.intro ol{
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-around;
+}
+.intro ol li{
+    list-style: none;
+    margin-top: 3rem;
+    
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+@media only screen and (max-width: 37.5em){
+    main{
+        height: auto;
+        padding: 2rem;
+    }
+}
+
+
+.timer{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.container{
+    
+    font-size: 2rem;
+    width: 100%;
+    padding: 3rem;
+
+}
+.quest-num{
+    text-align: center;
+
+}
+
+.question{
+    margin-top: 3rem;
+    font-size: 4rem;
+    text-align: center;
+
+}
+@media only screen and (max-width: 37.5em){
+    .question{
+        font-size: 2.5rem;
+    }
+}
+
+.option-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 4rem;
+}
+@media only screen and (max-width: 37.5em){
+    .option-box{
+        justify-content: flex-start;
+        font-size: 2.5rem;
+    }
+}
+
+.option{
+    margin-left: 3rem;
+    list-style: none;
+    
+}
+input{
+    height: 2rem;
+    width: 2rem; 
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+}
+
+.btn-box{
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 8rem;
+    height: 5rem;
+}
+
+.btn-start{
+    margin-top: 2rem;
+    background-color: green;
+    color: #fff;
+}
+
+.btn-submit{
+    background-color: red;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.btn-next{
+    background-color: green;
+    color: #fff;
+}
+
+.result-heading{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.result-score{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.result-text-div{
+    padding: 2rem;
+}
+
+.result-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
